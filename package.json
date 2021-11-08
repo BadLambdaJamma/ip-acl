@@ -1,0 +1,27 @@
+{
+  "name": "ip-acl",
+  "version": "1.0.0",
+  "description": "ip based access control list",
+  "main": "index.js",
+  "keywords": [
+    "ip",
+    "acl"
+  ],
+  "author": "jonathan newell",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^11.15.20",
+    "event-as-promise": "^1.0.5",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^2.0.1",
+    "node-cron": "^3.0.0",
+    "readline-promise": "^1.0.5",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "dev": "ts-node ./src/server.ts",
+    "build": "tsc --project ./tsconfig.json",
+    "start": "node ./dist/server.js"
+  }
+}

@@ -1,0 +1,80 @@
+export function ShellString(stdout: any, stderr: any, code: any): any;
+export function cat(...args: any[]): any;
+export function cd(...args: any[]): any;
+export function chmod(...args: any[]): any;
+export namespace config {
+  const bufLength: number;
+  const execPath: string;
+  const fatal: boolean;
+  const globOptions: {};
+  const maxdepth: number;
+  const noglob: boolean;
+  class reset {
+    execPath: any;
+  }
+  class resetForTesting {
+    silent: any;
+  }
+  const silent: boolean;
+  const verbose: boolean;
+}
+export function cp(...args: any[]): any;
+export function dirs(...args: any[]): any;
+export function echo(...args: any[]): any;
+export const env: {
+  AMD_ENTRYPOINT: string;
+  APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL: string;
+  COMMAND_MODE: string;
+  ELECTRON_RUN_AS_NODE: string;
+  HOME: string;
+  JENV_LOADED: string;
+  JENV_SHELL: string;
+  LOGNAME: string;
+  NODE_PATH: string;
+  NVM_BIN: string;
+  NVM_CD_FLAGS: string;
+  NVM_DIR: string;
+  PATH: string;
+  PIPE_LOGGING: string;
+  PWD: string;
+  SHELL: string;
+  SHLVL: string;
+  SSH_AUTH_SOCK: string;
+  TMPDIR: string;
+  USER: string;
+  VERBOSE_LOGGING: string;
+  VSCODE_HANDLES_UNCAUGHT_ERRORS: string;
+  VSCODE_IPC_HOOK: string;
+  VSCODE_IPC_HOOK_EXTHOST: string;
+  VSCODE_LOGS: string;
+  VSCODE_LOG_STACK: string;
+  VSCODE_NLS_CONFIG: string;
+  VSCODE_NODE_CACHED_DATA_DIR: string;
+  VSCODE_PID: string;
+  VSCODE_PREVENT_FOREIGN_INSPECT: string;
+  XPC_FLAGS: string;
+  XPC_SERVICE_NAME: string;
+};
+export function error(): any;
+export function exec(...args: any[]): any;
+export function exit(code: any): void;
+export function find(...args: any[]): any;
+export function grep(...args: any[]): any;
+export function head(...args: any[]): any;
+export function ln(...args: any[]): any;
+export function ls(...args: any[]): any;
+export function mkdir(...args: any[]): any;
+export function mv(...args: any[]): any;
+export function popd(...args: any[]): any;
+export function pushd(...args: any[]): any;
+export function pwd(...args: any[]): any;
+export function rm(...args: any[]): any;
+export function sed(...args: any[]): any;
+export function set(...args: any[]): any;
+export function sort(...args: any[]): any;
+export function tail(...args: any[]): any;
+export function tempdir(...args: any[]): any;
+export function test(...args: any[]): any;
+export function touch(...args: any[]): any;
+export function uniq(...args: any[]): any;
+export function which(...args: any[]): any;

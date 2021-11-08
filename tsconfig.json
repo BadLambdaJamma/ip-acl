@@ -1,0 +1,25 @@
+
+  {
+    "compilerOptions": {
+       "target": "es2017",
+       "sourceMap": true,
+       "typeRoots": ["node_modules/@types/"],
+       "outDir": "./dist",
+       "baseUrl": "./src",
+       "noUnusedLocals": false,
+       "noUnusedParameters": false,
+       "declaration": false,
+       "module": "CommonJS",
+       "alwaysStrict": true,
+       "allowJs": false
+    },
+    "compileOnSave": true,
+    "include": [
+       "src/**/*"
+    ],
+    "exclude": [
+       ".vscode",
+       "node_modules",
+       "dist"
+    ]
+  }
